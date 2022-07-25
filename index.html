@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today-Weather</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <div class="main">
+         <div id="nav">
+            <div id="icon"><img src="./images/atmosphere.png" alt=""></div>
+            <div class="title">Weather</div>
+         </div>
+        <form id="search-form">
+            <input type="search" placeholder="Enter city name" id="searchInput" required >
+            <button  type="submit" id="searchButton">search</button>
+        </form>
+        <div class="banner">
+            
+            <div class="cantent">
+                <p id="header">Today Weather</p>
+                <div id="loca">
+                    <p>location</p>
+                </div>
+                <div class="temp">
+                    
+                    <p><img id="tempIcon"  src="./images/rain.png" alt="sunny"><span id="temp-value">35</span><span id="temp-unit">&#176c</span></p>
+                    
+                </div>
+                <div id="climate">climate</div>
+            </div>
+            <div class="image">
+                <img id="pic" src="./images/clouds.png" alt="Sorry">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./jsfile.js"> 
+    </script>
+</body>
+</html>
