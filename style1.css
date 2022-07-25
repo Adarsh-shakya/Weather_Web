@@ -219,14 +219,17 @@ background-color: #ff6666;
       .image{
         margin: 5%;
         width: 40%;
-        height: 260px;
+        height: 240px;
       }
       #temp-value{
         margin-left: 50px;
         font-size: 120px;
       }
       .main{
-        height: 110vh;
+        height: 130vh;
+      }
+      #climate{
+        color: whitesmoke;
       }
     
 }
